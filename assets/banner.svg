@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="scbBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#030c18" /><stop offset="50%" stop-color="#081e36" /><stop offset="100%" stop-color="#020810" /></linearGradient>
+    <linearGradient id="scbNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"><animate attributeName="stop-color" values="#06b6d4;#10b981;#6366f1;#06b6d4" dur="7s" repeatCount="indefinite" /></stop>
+      <stop offset="50%" stop-color="#10b981"><animate attributeName="stop-color" values="#10b981;#a855f7;#06b6d4;#10b981" dur="7s" repeatCount="indefinite" /></stop>
+      <stop offset="100%" stop-color="#6366f1"><animate attributeName="stop-color" values="#6366f1;#06b6d4;#10b981;#6366f1" dur="7s" repeatCount="indefinite" /></stop>
+    </linearGradient>
+    <linearGradient id="scbGrid" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#06b6d4" stop-opacity="0" /><stop offset="100%" stop-color="#10b981" stop-opacity="0.35" /></linearGradient>
+    <filter id="scbGlow"><feGaussianBlur stdDeviation="5" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+  </defs>
+
+  <style>
+    @keyframes scbFloat { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+    .floating-agent { animation: scbFloat 5.6s ease-in-out infinite; }
+  </style>
+
+  <rect width="1200" height="360" fill="url(#scbBg)" />
+
+  <g opacity="0.65">
+    <line x1="0" y1="260" x2="1200" y2="260" stroke="#06b6d4" stroke-opacity="0.25" stroke-width="1" />
+    <line x1="600" y1="260" x2="0" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="600" y1="260" x2="200" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="600" y1="260" x2="400" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="600" y1="260" x2="600" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="600" y1="260" x2="800" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="600" y1="260" x2="1000" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="600" y1="260" x2="1200" y2="360" stroke="url(#scbGrid)" stroke-width="1.5" />
+    <line x1="0" y1="290" x2="1200" y2="290" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="1" />
+    <line x1="0" y1="330" x2="1200" y2="330" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.5" />
+  </g>
+
+  <circle cx="200" cy="110" r="140" fill="#06b6d4" opacity="0.08" filter="url(#scbGlow)" />
+  <circle cx="960" cy="170" r="160" fill="#10b981" opacity="0.12" filter="url(#scbGlow)" />
+
+  <!-- 3D Holographic Spider Crawler & AI Synapse Core -->
+  <g transform="translate(940, 180)" class="floating-agent">
+    <circle cx="0" cy="0" r="110" fill="none" stroke="url(#scbNeon)" stroke-width="2" stroke-dasharray="8 6" opacity="0.75">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <!-- Web Crawler Web Lines -->
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30" fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7" />
+    <polygon points="0,-35 30,-18 30,18 0,35 -30,18 -30,-18" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.8" />
+
+    <!-- Spider Legs / Data Ingestion Rays -->
+    <line x1="-30" y1="-18" x2="-65" y2="-45" stroke="#06b6d4" stroke-width="2" />
+    <line x1="-30" y1="0" x2="-75" y2="0" stroke="#06b6d4" stroke-width="2" />
+    <line x1="-30" y1="18" x2="-65" y2="45" stroke="#06b6d4" stroke-width="2" />
+    <line x1="30" y1="-18" x2="65" y2="-45" stroke="#10b981" stroke-width="2" />
+    <line x1="30" y1="0" x2="75" y2="0" stroke="#10b981" stroke-width="2" />
+    <line x1="30" y1="18" x2="65" y2="45" stroke="#10b981" stroke-width="2" />
+
+    <!-- Center AI Agent Eye Core -->
+    <circle cx="0" cy="0" r="14" fill="#06b6d4" filter="url(#scbGlow)">
+      <animate attributeName="r" values="12;18;12" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="fill" values="#06b6d4;#10b981;#6366f1;#06b6d4" dur="7s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Floating Badges -->
+    <g transform="translate(-120, -50)">
+      <rect x="0" y="0" width="85" height="22" rx="6" fill="#05172c" stroke="#06b6d4" stroke-width="1" />
+      <text x="42" y="15" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" fill="#22d3ee" text-anchor="middle">AGNO AGENT</text>
+    </g>
+    <g transform="translate(65, 30)">
+      <rect x="0" y="0" width="85" height="22" rx="6" fill="#05172c" stroke="#10b981" stroke-width="1" />
+      <text x="42" y="15" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" fill="#34d399" text-anchor="middle">SCRAPLING</text>
+    </g>
+    <g transform="translate(-40, 70)">
+      <rect x="0" y="0" width="85" height="22" rx="6" fill="#05172c" stroke="#6366f1" stroke-width="1" />
+      <text x="42" y="15" font-family="'Fira Code', monospace" font-size="10" font-weight="bold" fill="#a5b4fc" text-anchor="middle">GEMINI 1.5</text>
+    </g>
+  </g>
+
+  <!-- Left Typography -->
+  <g transform="translate(80, 140)">
+    <g transform="translate(0, -35)">
+      <rect x="0" y="-14" width="280" height="24" rx="12" fill="#06b6d4" fill-opacity="0.12" stroke="#06b6d4" stroke-width="1" />
+      <circle cx="12" cy="-2" r="4" fill="#06b6d4" />
+      <text x="26" y="2" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#06b6d4" letter-spacing="2">AI WEB SCRAPER // MULTI-AGENT</text>
+    </g>
+
+    <text x="0" y="32" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="url(#scbNeon)" filter="url(#scbGlow)" letter-spacing="2">
+      TELEGRAM WEB SCRAPING BOT
+    </text>
+
+    <text x="0" y="68" font-family="'Fira Code', monospace" font-size="16" font-weight="600" fill="#e2e8f0" letter-spacing="1">
+      ⚡ Autonomous Web Extraction, Scrapling Engine &amp; Agno Multi-Agent AI
+    </text>
+
+    <g transform="translate(0, 92)">
+      <rect x="0" y="0" width="165" height="26" rx="6" fill="#06182c" stroke="#06b6d4" stroke-width="1" />
+      <text x="82" y="17" font-family="'Fira Code', monospace" font-size="11" font-weight="bold" fill="#22d3ee" text-anchor="middle">🤖 Agno Framework</text>
+
+      <rect x="175" y="0" width="160" height="26" rx="6" fill="#06182c" stroke="#10b981" stroke-width="1" />
+      <text x="255" y="17" font-family="'Fira Code', monospace" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">🕷️ Scrapling Engine</text>
+
+      <rect x="345" y="0" width="150" height="26" rx="6" fill="#06182c" stroke="#6366f1" stroke-width="1" />
+      <text x="420" y="17" font-family="'Fira Code', monospace" font-size="11" font-weight="bold" fill="#a5b4fc" text-anchor="middle">⚡ Gemini 1.5 Flash</text>
+
+      <rect x="505" y="0" width="150" height="26" rx="6" fill="#06182c" stroke="#ec4899" stroke-width="1" />
+      <text x="580" y="17" font-family="'Fira Code', monospace" font-size="11" font-weight="bold" fill="#f472b6" text-anchor="middle">📱 Telegram Native</text>
+    </g>
+  </g>
+
+  <line x1="0" y1="358" x2="1200" y2="358" stroke="url(#scbNeon)" stroke-width="3" filter="url(#scbGlow)" />
+</svg>

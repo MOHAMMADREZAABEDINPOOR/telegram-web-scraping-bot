@@ -13,7 +13,7 @@
 [![Agno Framework](https://img.shields.io/badge/AI_Agent-Agno_Framework-8A2BE2?style=for-the-badge)](https://github.com/agno-agi/agno)
 [![Google Gemini](https://img.shields.io/badge/AI-Gemini_1.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Scrapling](https://img.shields.io/badge/Scraper-Scrapling_Fetcher-FF6B6B?style=for-the-badge)](https://github.com/D4Vinci/Scrapling)
-[![Read in Persian](https://img.shields.io/badge/مطالعه_به_فارسی-Persian_README-008080?style=for-the-badge)](#-بخش-فوقالعاده-مفصل-و-جامع-به-زبان-فارسی-persian-documentation)
+[![Read in Persian](https://img.shields.io/badge/مطالعه_به_فارسی-Persian_README-008080?style=for-the-badge)](#persian-documentation)
 
 <p align="center">
   <b>telegram-web-scraping-bot</b> is an autonomous AI agent and web-scraping bot for Telegram built on the <b>Agno agentic framework</b>, <b>Google Gemini 1.5 Flash</b>, and <b>Scrapling</b>. Designed for intelligent Iranian real estate discovery (Divar), the bot understands natural language queries in Persian, extracts listings, normalizes pricing and square footage, and delivers interactive cards with direct listing links.
@@ -23,7 +23,7 @@
 [Directory Anatomy](#-exhaustive-directory--file-anatomy) •
 [Agentic Architecture](#-agentic-scraping-architecture) •
 [Quick Start](#-quick-start) •
-[توضیحات فارسی](#-بخش-فوقالعاده-مفصل-و-جامع-به-زبان-فارسی-persian-documentation) •
+[توضیحات فارسی](#persian-documentation) •
 [License](#-copyleft-license--legal-attribution)
 
 </div>
@@ -72,7 +72,8 @@ python agent.py
 
 ---
 
-## 🇮🇷 بخش فوق‌العاده مفصل و جامع به زبان فارسی (Persian Documentation)
+## Persian Documentation
+### 🇮🇷 مستندات فوق‌العاده مفصل، جامع و فنی به زبان فارسی
 
 ### ۱. معرفی ایجنت هوشمند تلگرام استخراج آگهی مسکن
 پروژه **telegram-web-scraping-bot** یک عامل هوشمند خودمختار (AI Autonomous Agent) در تلگرام است که با استفاده از فریم‌ورک نوین **Agno** و هوش مصنوعی **Google Gemini 1.5 Flash** مهندسی شده است. این ربات زبان طبیعی کاربر را متوجه شده، پارامترهای مسکن (متراژ، بودجه، ودیعه، محله) را استخراج کرده و به صورت خودکار جدیدترین آگهی‌های پلتفرم دیوار را استخراج کرده و در قالب پیام‌های تصویری شیک در تلگرام نمایش می‌دهد.
@@ -92,6 +93,6 @@ Distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=120&section=footer" alt="Footer" width="100%" />
+<img src="./assets/footer.svg" alt="Telegram Web Scraping Bot 3D Footer" width="100%" />
 <sub>Architected by <a href="https://github.com/MOHAMMADREZAABEDINPOOR"><b>MOHAMMADREZA ABEDINPOOR</b></a>. If this AI agent assists your workflow, leave a ⭐!</sub>
 </div>
